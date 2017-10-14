@@ -6,6 +6,8 @@ body {
   font-weight: 400;
   background: #fff;
 }
+
+
 .btn {
   font-size: 14px;
   font-weight: 400;
@@ -34,7 +36,11 @@ ul {
 ul li {
   list-style: none;
 }
-a:hover,
+a:hover{
+  text-decoration: none;
+  outline: none;
+  color: #000000;
+}
 a:focus {
   text-decoration: none;
   outline: none;
@@ -220,7 +226,7 @@ a:focus {
   }
 }
 .hero-area {
-  background: url(../img/hero-area.jpg) no-repeat;
+  background: url(../img/h1.jpg) no-repeat;
   background-size: cover;
   background-position: center bottom;
   color: #fff;
